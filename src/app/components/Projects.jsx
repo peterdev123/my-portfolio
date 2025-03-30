@@ -25,7 +25,7 @@ const Projects = () => {
       title: "OnlyFit",
       description:
         "A fitness gym app cater to users who want to focus on their health and wellness. Users can manage their workout routines, track their progress, and reach their goals and objectives.",
-      image: "/images/onlyfit.png",
+      image: "/images/OnlyFit.png",
       techStack: ["PHP", "HTML/CSS", "MySQL"],
       githubLink: "https://github.com/peterdev123/onlyfit-sql",
     },

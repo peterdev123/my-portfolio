@@ -49,9 +49,7 @@ const AboutMe = () => {
 
           <div className="mb-8">
             <a
-              href="/path-to-your-cv.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="/cv"
               className="px-6 py-3 rounded-full bg-gradient-to-br from-emerald-500 to-teal-500 hover:scale-105 transition-transform duration-200 text-white"
             >
               View CV
