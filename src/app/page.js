@@ -1,6 +1,7 @@
 import HeroSection from "./components/HeroSection";
 import AboutMe from "./components/AboutMe";
 import SideBar from "./components/SideBar";
+import TechStack from "./components/TechStack";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <HeroSection />
       <AboutMe />
       <SideBar />
+      <TechStack />
     </main>
   );
 }
