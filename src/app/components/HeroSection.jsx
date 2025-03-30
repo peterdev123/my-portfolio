@@ -31,7 +31,7 @@ const HeroSection = () => {
 
   return (
     <section className="py-16 lg:py-24 relative overflow-hidden" id="hero">
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(22,163,74,0.1),transparent_50%)]" />
+      <div className="absolute inset-0" />
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
         <div className="col-span-7 place-self-center text-center lg:text-left">
           <h1 className="text-white mb-6 text-4xl sm:text-5xl lg:text-6xl font-extrabold flex flex-col gap-2">

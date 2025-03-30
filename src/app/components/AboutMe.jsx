@@ -35,7 +35,7 @@ const AboutMe = () => {
 
         <div className="text-center lg:text-left">
           <h2 className="text-4xl font-bold text-white mb-6">About Me</h2>
-          <p className="text-[#ADB7BE] mb-8 text-justify">
+          <p className="text-[#ADB7BE] mb-8 text-justify duration-500 hover:text-white">
             I am a passionate developer with strong programming fundamentals and
             problem-solving skills. I am proficient in Java, Python, C/C++, and
             JavaScript. Currently, I am exploring and expanding my knowledge in
@@ -74,7 +74,7 @@ const AboutMe = () => {
               <FaLinkedin size={28} />
             </a>
             <a
-              href="https://facebook.com/your-profile"
+              href="https://www.facebook.com/petersylvan.vecina"
               target="_blank"
               rel="noopener noreferrer"
               className="text-white hover:text-emerald-400 transition-colors cursor-pointer transform hover:scale-125 duration-200"
