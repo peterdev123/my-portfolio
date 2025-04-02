@@ -23,13 +23,13 @@ const AboutMe = () => {
   return (
     <section className="py-16 lg:py-24" id="about">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
-        <div className="relative w-[400px] h-[500px] mx-auto lg:w-[500px] lg:h-[500px]">
+        <div className="relative w-[300px] h-[400px] mx-auto lg:w-[500px] lg:h-[500px]">
           <Image
             src={images[currentImage]}
             alt="About Me"
             className="rounded-2xl shadow-lg transition-opacity duration-500"
             fill
-            sizes="(max-width: 768px) 400px, 600px"
+            sizes="(max-width: 768px) 300px, 400px"
             style={{ objectFit: "cover", objectPosition: "center" }}
             priority
           />

@@ -29,6 +29,14 @@ const Projects = () => {
       techStack: ["PHP", "HTML/CSS", "MySQL"],
       githubLink: "https://github.com/peterdev123/onlyfit-sql",
     },
+    {
+      title: "ManageIt",
+      description:
+        "A budget app using the 50/30/20 rule to manage income and track expenses. Users can monitor their spending through a simple dashboard with needs, wants, and savings categories.",
+      image: "/images/manageit.png",
+      techStack: ["Next.js", "Nest.js", "MongoDB", "Docker"],
+      githubLink: "https://github.com/peterdev123/manageit",
+    },
   ];
 
   return (
