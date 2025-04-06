@@ -75,7 +75,7 @@ const Projects = () => {
                     </span>
                   ))}
                 </div>
-                <div className="flex gap-4">
+                <div className="flex items-center gap-4">
                   <a
                     href={project.githubLink}
                     target="_blank"
@@ -84,6 +84,16 @@ const Projects = () => {
                   >
                     <FaGithub size={24} />
                   </a>
+                  {project.title === "ManageIt" && (
+                    <a
+                      href="https://manageit-117g.vercel.app"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="px-4 py-2 bg-gradient-to-br from-emerald-500 to-teal-500 text-white rounded-full hover:scale-105 transition-all duration-200 flex items-center gap-2"
+                    >
+                      Live Demo <FaExternalLinkAlt size={16} />
+                    </a>
+                  )}
                 </div>
               </div>
             </div>
