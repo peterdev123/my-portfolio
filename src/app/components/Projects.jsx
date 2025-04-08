@@ -6,6 +6,14 @@ import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 const Projects = () => {
   const projects = [
     {
+      title: "ManageIt",
+      description:
+        "A budget app using the 50/30/20 rule to manage income and track expenses. Users can monitor their spending through a simple dashboard with needs, wants, and savings categories.",
+      image: "/images/manageit.png",
+      techStack: ["Next.js", "Nest.js", "MongoDB", "Docker"],
+      githubLink: "https://github.com/peterdev123/manageit",
+    },
+    {
       title: "GitJob",
       description:
         "Your ultimate job portal connecting job seekers and employers. Discover and apply to jobs, and connect with companies.",
@@ -28,14 +36,6 @@ const Projects = () => {
       image: "/images/OnlyFit.png",
       techStack: ["PHP", "HTML/CSS", "MySQL"],
       githubLink: "https://github.com/peterdev123/onlyfit-sql",
-    },
-    {
-      title: "ManageIt",
-      description:
-        "A budget app using the 50/30/20 rule to manage income and track expenses. Users can monitor their spending through a simple dashboard with needs, wants, and savings categories.",
-      image: "/images/manageit.png",
-      techStack: ["Next.js", "Nest.js", "MongoDB", "Docker"],
-      githubLink: "https://github.com/peterdev123/manageit",
     },
   ];
 
@@ -91,7 +91,7 @@ const Projects = () => {
                       rel="noopener noreferrer"
                       className="px-4 py-2 bg-gradient-to-br from-emerald-500 to-teal-500 text-white rounded-full hover:scale-105 transition-all duration-200 flex items-center gap-2"
                     >
-                      Live Demo <FaExternalLinkAlt size={16} />
+                      Live Site <FaExternalLinkAlt size={16} />
                     </a>
                   )}
                 </div>
