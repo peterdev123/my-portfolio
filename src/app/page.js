@@ -15,7 +15,12 @@ export default function Home() {
         <TechStack />
         <Projects />
         <footer className="text-center py-4 text-[#ADB7BE] mt-12">
-          <p>© {new Date().getFullYear()} Peter Sylvan Vecina. All rights reserved.</p>
+          <div className="flex flex-col items-center gap-4">
+            <p>
+              © {new Date().getFullYear()} Peter Sylvan Vecina. All rights
+              reserved.
+            </p>
+          </div>
         </footer>
       </div>
     </main>

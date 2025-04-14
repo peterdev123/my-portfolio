@@ -12,6 +12,7 @@ const Projects = () => {
       image: "/images/manageit.png",
       techStack: ["Next.js", "Nest.js", "MongoDB", "Docker"],
       githubLink: "https://github.com/peterdev123/manageit",
+      demoLink: "https://www.youtube.com/watch?v=hj87vkmK4jk",
     },
     {
       title: "GitJob",
@@ -20,6 +21,7 @@ const Projects = () => {
       image: "/images/gitjob.png",
       techStack: ["Django", "Python", "PostgreSQL"],
       githubLink: "https://github.com/peterdev123/gitjob",
+      demoLink: "https://www.youtube.com/watch?v=vwxJNfW09w8",
     },
     {
       title: "Exiled",
@@ -28,6 +30,7 @@ const Projects = () => {
       image: "/images/exiled.png",
       techStack: ["Java", "LibGDX", "MySQL"],
       githubLink: "https://github.com/peterdev123/exiled-oop-project",
+      demoLink: "https://www.youtube.com/watch?v=-2az27OirAM&t=16s",
     },
     {
       title: "OnlyFit",
@@ -36,6 +39,7 @@ const Projects = () => {
       image: "/images/OnlyFit.png",
       techStack: ["PHP", "HTML/CSS", "MySQL"],
       githubLink: "https://github.com/peterdev123/onlyfit-sql",
+      demoLink: "N/A",
     },
   ];
 
@@ -83,6 +87,14 @@ const Projects = () => {
                     className="text-white hover:text-emerald-400 transition-colors"
                   >
                     <FaGithub size={24} />
+                  </a>
+                  <a
+                    href={project.demoLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="px-4 py-2 bg-gradient-to-br from-red-500 to-pink-500 text-white rounded-full hover:scale-105 transition-all duration-200 flex items-center gap-2"
+                  >
+                    Demo <FaExternalLinkAlt size={16} />
                   </a>
                   {project.title === "ManageIt" && (
                     <a
