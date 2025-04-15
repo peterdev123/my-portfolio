@@ -17,7 +17,7 @@ export default function Home() {
         <footer className="text-center py-4 text-[#ADB7BE] mt-12">
           <div className="flex flex-col items-center gap-4">
             <p>
-              © {new Date().getFullYear()} Peter Sylvan Vecina. All rights
+              © {new Date().getFullYear()} Peter Sylvan L. Vecina. All rights
               reserved.
             </p>
           </div>
