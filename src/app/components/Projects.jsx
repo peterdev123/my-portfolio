@@ -48,7 +48,7 @@ const projects = [
     image: "/images/TreeTrace.png",
     techStack: ["Next.js", "Nest.js", "Typescript", "MongoDB"],
     githubLink: "https://github.com/ZenXen7/TreeTrace",
-    demoLink: "N/A",
+    demoLink: "https://www.youtube.com/watch?v=yvPGpf0bSUc&t=1s",
   },
   {
     title: "Food Detective 3000",
