@@ -15,6 +15,25 @@ const projects = [
     liveLink: "https://manageit-117g.vercel.app",
   },
   {
+    title: "TreeTrace",
+    description:
+      "TreeTrace is a web-based family tree platform that enables users to build, manage, and visualize their family history interactively.",
+    image: "/images/TreeTrace.png",
+    techStack: ["Next.js", "Nest.js", "Typescript", "MongoDB"],
+    githubLink: "https://github.com/ZenXen7/TreeTrace",
+    demoLink: "https://www.youtube.com/watch?v=yvPGpf0bSUc&t=1s",
+  },
+  {
+    title: "Food Detective 3000",
+    description:
+    "A food recognition app that uses AI to classify food items from images. Food classification is done using a pre-trained ResNet50 model.",
+    image: "/images/foodDetective.png",
+    techStack: ["Python", "Flask", "TensorFlow"],
+    githubLink: "https://github.com/peterdev123/food_detective",
+    demoLink: "https://www.youtube.com/watch?v=fooddetective-demo",
+    liveLink: "https://food-detective.onrender.com/",
+  },
+  {
     title: "GitJob",
     description:
       "Your ultimate job portal connecting job seekers and employers. Discover and apply to jobs, and connect with companies.",
@@ -40,25 +59,6 @@ const projects = [
     techStack: ["PHP", "HTML/CSS", "MySQL"],
     githubLink: "https://github.com/peterdev123/onlyfit-sql",
     demoLink: "N/A",
-  },
-  {
-    title: "TreeTrace",
-    description:
-      "TreeTrace is a web-based family tree platform that enables users to build, manage, and visualize their family history interactively.",
-    image: "/images/TreeTrace.png",
-    techStack: ["Next.js", "Nest.js", "Typescript", "MongoDB"],
-    githubLink: "https://github.com/ZenXen7/TreeTrace",
-    demoLink: "https://www.youtube.com/watch?v=yvPGpf0bSUc&t=1s",
-  },
-  {
-    title: "Food Detective 3000",
-    description:
-      "A food recognition app that uses AI to classify food items from images. Food classification is done using a pre-trained ResNet50 model.",
-    image: "/images/foodDetective.png",
-    techStack: ["Python", "Flask", "TensorFlow"],
-    githubLink: "https://github.com/peterdev123/food_detective",
-    demoLink: "https://www.youtube.com/watch?v=fooddetective-demo",
-    liveLink: "https://food-detective.onrender.com/",
   },
 ];
 
