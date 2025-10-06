@@ -7,7 +7,7 @@ import Projects from "./components/Projects";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col w-full px-0 py-4 relative">
-      <div className="absolute inset-0 bg-[#121212] bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(16,185,129,0.15),rgba(255,255,255,0))]" />
+      <div className="absolute inset-0 bg-slate-950" />
       <div className="relative z-10">
         <HeroSection />
         <Projects />

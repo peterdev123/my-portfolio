@@ -25,12 +25,11 @@ const AboutMe = () => {
       <div className="absolute inset-0 bg-[url('/images/grid.svg')] bg-center [mask-image:linear-gradient(180deg,white,rgba(255,255,255,0))]" />
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center px-4 relative z-10">
         <div className="relative aspect-[3/4] w-full max-w-[300px] lg:max-w-[450px] mx-auto">
-          <div className="absolute inset-0 bg-slate-800 rounded-2xl blur-3xl opacity-50 animate-pulse" />
-          <div className="relative h-full w-full rounded-2xl overflow-hidden shadow-2xl shadow-emerald-500/20">
+          <div className="relative h-full w-full overflow-hidden">
             <Image
               src={images[currentImage]}
               alt="About Me"
-              className="rounded-2xl transition-all duration-700 ease-in-out transform hover:scale-105"
+              className="transition-all duration-700 ease-in-out transform hover:scale-105"
               fill
               sizes="(max-width: 768px) 300px, 450px"
               style={{ objectFit: "cover", objectPosition: "center" }}
@@ -41,7 +40,7 @@ const AboutMe = () => {
             {images.map((_, index) => (
               <div
                 key={index}
-                className={`w-2 h-2 rounded-full transition-all duration-300 ${
+                className={`w-2 h-2 transition-all duration-300 ${
                   currentImage === index
                     ? "bg-emerald-500 w-4"
                     : "bg-white/50"
@@ -56,7 +55,7 @@ const AboutMe = () => {
             <h2 className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-emerald-600 mb-6">
               About Me
             </h2>
-            <p className="text-[#ADB7BE] text-lg leading-relaxed duration-500 hover:text-white">
+            <p className="text-[#ADB7BE] text-lg leading-relaxed duration-500">
               I am a passionate developer with strong programming fundamentals and
               problem-solving skills. I am proficient in Java, Python, C/C++, and
               JavaScript. Currently, I am exploring and expanding my knowledge in
@@ -70,13 +69,13 @@ const AboutMe = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
             <a
               href="/cv"
-              className="px-8 py-4 rounded-full bg-emerald-500 hover:scale-105 transition-all duration-300 text-white font-semibold shadow-lg shadow-emerald-500/20 hover:shadow-emerald-500/40"
+              className="px-8 py-4 bg-emerald-500 hover:scale-105 transition-all duration-300 text-white font-semibold"
             >
               View CV
             </a>
             <a
               href="#contact"
-              className="px-8 py-4 rounded-full border-2 border-emerald-700 hover:border-emerald-500 hover:scale-105 transition-all duration-300 text-white font-semibold"
+              className="px-8 py-4 border-2 border-emerald-700 hover:border-emerald-500 hover:scale-105 transition-all duration-300 text-white font-semibold"
             >
               Contact Me
             </a>

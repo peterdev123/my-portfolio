@@ -43,11 +43,11 @@ const HeroSection = () => {
             Mr. <span className="typing-cursor text-emerald-400">{text}</span>
           </h1>
           <div className="mb-2 mt-4">
-            <span className="inline-block text-emerald-400 text-lg sm:text-xl lg:text-2xl font-semibold tracking-wide bg-slate-800 px-4 py-1 rounded-full animate-fade-in">
+            <span className="inline-block text-emerald-400 text-lg sm:text-xl lg:text-2xl font-semibold tracking-wide bg-slate-800 px-4 py-1 animate-fade-in">
               Full Stack Developer | AI Enthusiast | Problem Solver
             </span>
           </div>
-          <p className="text-white text-base sm:text-lg lg:text-xl mb-6 max-w-2xl">
+          <p className="mt-4 text-white text-base sm:text-lg lg:text-xl mb-6 max-w-2xl">
             A passionate and dedicated individual with strong interest in developing innovative solutions. I transform complex problems into elegant, efficient code.
           </p>
           <div className="flex gap-6 justify-center lg:justify-start">
@@ -77,10 +77,9 @@ const HeroSection = () => {
               </a>
             </div>
         </div>
-        {/* Right: Profile Image with Circle Border and Glow */}
+        {/* Right: Profile Image */}
         <div className="col-span-5 flex justify-center items-center w-full">
-          <div className="relative flex items-center justify-center w-[220px] h-[220px] sm:w-[260px] sm:h-[260px] lg:w-[350px] lg:h-[350px]">
-            <div className="absolute inset-0 bg-emerald-400 rounded-full blur-2xl opacity-30 -z-10" />
+          <div className="relative flex items-center justify-center w-[250px] h-[250px] sm:w-[280px] sm:h-[280px] lg:w-[400px] lg:h-[400px]">
             <Image
               src="/images/profilepic.jpg"
               alt="hero image"
