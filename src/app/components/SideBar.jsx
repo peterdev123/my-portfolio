@@ -6,9 +6,9 @@ import { HiHome, HiUser, HiViewColumns, HiEnvelope, HiOutlineSparkles, HiCommand
 const SideBar = () => {
   const navItems = [
     { name: "Hero", href: "#hero", icon: <HiOutlineSparkles size={20} /> },
+    { name: "Projects", href: "#projects", icon: <HiViewColumns size={20} /> },
     { name: "About", href: "#about", icon: <HiUser size={20} /> },
     { name: "Tech Stack", href: "#tech", icon: <HiCommandLine size={20} /> },
-    { name: "Projects", href: "#projects", icon: <HiViewColumns size={20} /> },
     { name: "Contact", href: "#contact", icon: <HiEnvelope size={20} /> },
   ];
 
