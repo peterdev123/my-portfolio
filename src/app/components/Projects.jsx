@@ -22,6 +22,7 @@ const projects = [
     techStack: ["Next.js", "Nest.js", "Typescript", "MongoDB"],
     githubLink: "https://github.com/ZenXen7/TreeTrace",
     demoLink: "https://www.youtube.com/watch?v=yvPGpf0bSUc&t=1s",
+    liveLink: "https://tree-trace-rzni.vercel.app",
   },
   {
     title: "Food Detective 3000",
