@@ -22,12 +22,12 @@ const projects = [
     techStack: ["Next.js", "Nest.js", "Typescript", "MongoDB"],
     githubLink: "https://github.com/ZenXen7/TreeTrace",
     demoLink: "https://www.youtube.com/watch?v=yvPGpf0bSUc&t=1s",
-    liveLink: "https://tree-trace-rzni.vercel.app",
+    liveLink: "https://ancestree.onrender.com",
   },
   {
     title: "Food Detective 3000",
     description:
-    "A food recognition app that uses AI to classify food items from images. Food classification is done using a pre-trained ResNet50 model.",
+      "A food recognition app that uses AI to classify food items from images. Food classification is done using a pre-trained ResNet50 model.",
     image: "/images/foodDetective.png",
     techStack: ["Python", "Flask", "TensorFlow"],
     githubLink: "https://github.com/peterdev123/food_detective",
@@ -74,17 +74,15 @@ const Projects = () => {
               Projects
             </h2>
             <p className="text-lg text-gray-700 max-w-1xl">
-              Collection of projects that I made for my college classes and for my own personal use.
+              Collection of projects that I made for my college classes and for
+              my own personal use.
             </p>
           </div>
 
           {/* Projects Grid */}
           <div className="space-y-10">
             {projects.map((project, index) => (
-              <div
-                key={index}
-                className="border-4 border-black bg-white"
-              >
+              <div key={index} className="border-4 border-black bg-white">
                 <div className="grid grid-cols-1 lg:grid-cols-12 gap-0">
                   {/* Image Section - 7 columns */}
                   <div className="lg:col-span-7 relative aspect-[16/10] bg-white border-b-4 lg:border-b-0 lg:border-r-4 border-black overflow-hidden p-3">
@@ -104,7 +102,7 @@ const Projects = () => {
                   <div className="lg:col-span-5 p-5 flex flex-col bg-white">
                     {/* Project Number and Title */}
                     <div className="text-emerald-600 text-xs font-semibold mb-1 tracking-wider">
-                      PROJECT {String(index + 1).padStart(2, '0')}
+                      PROJECT {String(index + 1).padStart(2, "0")}
                     </div>
                     <h3 className="text-2xl lg:text-3xl font-bold text-black mb-2 uppercase">
                       {project.title}
