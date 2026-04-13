@@ -6,7 +6,7 @@ import { FaArrowLeft, FaDownload } from "react-icons/fa";
 const CVPage = () => {
   return (
     <main className="min-h-screen bg-[#121212] py-8 px-4">
-      <Link 
+      <Link
         href="/"
         className="fixed top-8 left-8 text-white hover:text-emerald-400 transition-colors flex items-center gap-2 z-20"
       >
@@ -22,8 +22,14 @@ const CVPage = () => {
             height="800px"
             className="rounded-lg"
           >
-            <p>Your browser does not support PDFs. 
-              <a href="/documents/cv.pdf" className="text-emerald-400 hover:text-emerald-300">Download the PDF</a>
+            <p>
+              Your browser does not support PDFs.
+              <a
+                href="/documents/cv.pdf"
+                className="text-emerald-400 hover:text-emerald-300"
+              >
+                Download the PDF
+              </a>
             </p>
           </object>
           <a
