@@ -23,7 +23,7 @@ const CVPage = () => {
             className="rounded-lg"
           >
             <p>
-              Your browser does not support PDFs.
+              Browser does not support PDFs.
               <a
                 href="/documents/cv.pdf"
                 className="text-emerald-400 hover:text-emerald-300"
