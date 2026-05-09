@@ -5,19 +5,9 @@ import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 const projects = [
   {
-    title: "ManageIt",
-    description:
-      "A budget app using the 50/30/20 rule to manage income and track expenses. Users can monitor their spending through a simple dashboard with needs, wants, and savings categories.",
-    image: "/images/manageit.png",
-    techStack: ["Next.js", "Nest.js", "MongoDB", "Docker"],
-    githubLink: "https://github.com/peterdev123/manageit",
-    demoLink: "https://www.youtube.com/watch?v=hj87vkmK4jk",
-    liveLink: "https://manageit-117g.vercel.app",
-  },
-  {
     title: "TreeTrace",
     description:
-      "TreeTrace is a web-based family tree platform that enables users to build, manage, and visualize their family history interactively.",
+    "TreeTrace is a web-based family tree platform that enables users to build, manage, and visualize their family history interactively.",
     image: "/images/TreeTrace.png",
     techStack: ["Next.js", "Nest.js", "Typescript", "MongoDB"],
     githubLink: "https://github.com/ZenXen7/TreeTrace",
@@ -27,12 +17,31 @@ const projects = [
   {
     title: "Food Detective 3000",
     description:
-      "A food recognition app that uses AI to classify food items from images. Food classification is done using a pre-trained ResNet50 model.",
+    "A food recognition app that uses AI to classify food items from images. Food classification is done using a pre-trained ResNet50 model.",
     image: "/images/foodDetective.png",
     techStack: ["Python", "Flask", "TensorFlow"],
     githubLink: "https://github.com/peterdev123/food_detective",
     demoLink: "https://www.youtube.com/watch?v=fooddetective-demo",
     liveLink: "https://food-detective.onrender.com/",
+  },
+  {
+    title: "SoleSentinel",
+    description:
+    "As the last member of three ancient powerful Filipino tribes, you bear the sole responsibility to protect the Philippine Islands from enemies from a dimension of nightmares and madness. Bearing alone the enormous responsibility to wield the three sacred tribal Masks inherited from the three fallen tribes, you obtain the necessary power to drive the Masked Nightmare King and his minions away.",
+    image: "/images/SoleSentinel.png",
+    techStack: ["Godot", "GDScript"],
+    githubLink: "https://github.com/Requiem53/mask_game",
+    liveLink: "https://requiem53.itch.io/sole-sentinel",
+  },
+  {
+    title: "ManageIt",
+    description:
+      "A budget app using the 50/30/20 rule to manage income and track expenses. Users can monitor their spending through a simple dashboard with needs, wants, and savings categories.",
+    image: "/images/manageit.png",
+    techStack: ["Next.js", "Nest.js", "MongoDB", "Docker"],
+    githubLink: "https://github.com/peterdev123/manageit",
+    demoLink: "https://www.youtube.com/watch?v=hj87vkmK4jk",
+    liveLink: "https://manageit-117g.vercel.app",
   },
   {
     title: "GitJob",
