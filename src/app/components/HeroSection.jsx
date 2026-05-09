@@ -44,11 +44,11 @@ const HeroSection = () => {
           </h1>
           <div className="mb-2 mt-4">
             <span className="inline-block text-emerald-400 text-lg sm:text-xl lg:text-2xl font-semibold tracking-wide bg-slate-800 px-4 py-1 animate-fade-in">
-              Full Stack Developer | AI Enthusiast | Problem Solver
+              Software Engineer | AI Engineer Enthusiast | DevOps Engineer
             </span>
           </div>
-          <p className="mt-4 text-white text-base sm:text-lg lg:text-xl mb-6 max-w-2xl">
-            A passionate and dedicated individual with strong interest in developing innovative solutions. I transform complex problems into elegant, efficient code.
+          <p className="mt-4 text-white text-base sm:text-lg lg:text-xl mb-6 max-w-3xl">
+            I’m a dev who builds projects and then debugs them in my head while I’m at the gym. I mainly live in JavaScript, TypeScript, and Python, weaving together everything from full-stack builds and DevOps pipelines to ML and Generative AI. 
           </p>
           <div className="flex gap-6 justify-center lg:justify-start">
               <a
