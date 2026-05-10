@@ -33,6 +33,7 @@ const projects = [
     techStack: ["Godot", "GDScript"],
     githubLink: "https://github.com/Requiem53/mask_game",
     liveLink: "https://requiem53.itch.io/sole-sentinel",
+    liveLinkLabel: "Play",
   },
   {
     title: "ManageIt",
@@ -216,7 +217,7 @@ const Projects = () => {
                             rel="noopener noreferrer"
                             className={`${linkBase} flex-1 border-slate-800 bg-emerald-500 text-slate-950 hover:bg-emerald-400`}
                           >
-                            Live
+                            {project.liveLinkLabel ?? "Live"}
                             <FaExternalLinkAlt
                               className="ml-auto shrink-0 opacity-80 sm:ml-0"
                               size={12}
