@@ -48,7 +48,7 @@ const HeroSection = () => {
             </span>
           </div>
           <p className="mt-4 text-white text-base sm:text-lg lg:text-xl mb-6 max-w-3xl">
-            I’m a dev who builds projects and then debugs them in my head while I’m at the gym. I mainly live in JavaScript, TypeScript, and Python, weaving together everything from full-stack builds and DevOps pipelines to ML and Generative AI. 
+            I’m a dev who builds projects and then debugs them in my head while I’m at the gym. I am proficient in JavaScript, TypeScript, and Python, weaving together everything from full-stack builds and DevOps pipelines to ML and Generative AI. 
           </p>
           <div className="flex gap-6 justify-center lg:justify-start">
               <a
